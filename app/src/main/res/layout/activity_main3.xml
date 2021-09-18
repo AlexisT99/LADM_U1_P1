@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondneg"
+    android:padding="15dp"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="363dp"
+        android:layout_height="746dp"
+        android:background="@color/decolorado"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:paddingTop="180dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:background="#4CAF50"
+                    android:gravity="fill" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="220dp"
+                    android:layout_weight="8"
+                    android:background="#F3181B18"
+                    android:gravity="center"
+                    android:text="00:08 / 03:34"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/button9"
+                    android:layout_width="98dp"
+                    android:layout_height="102dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/roundbtntrans"
+                    android:src="@drawable/redo"
+                    android:text="Button" />
+
+                <ImageButton
+                    android:id="@+id/button10"
+                    android:layout_width="124dp"
+                    android:layout_height="122dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_weight="9"
+                    android:background="@drawable/roundbtn"
+                    android:src="@drawable/pause"
+                    android:text="Button" />
+
+                <ImageButton
+                    android:id="@+id/button11"
+                    android:layout_width="98dp"
+                    android:layout_height="103dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="3"
+                    android:background="@drawable/roundbtntrans"
+                    android:text="Button"
+                    tools:src="@drawable/next" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
