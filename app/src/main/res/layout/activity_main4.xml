@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="367dp"
+        android:layout_height="448dp"
+        android:layout_gravity="center"
+        android:background="@drawable/sol" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="128dp"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/msg1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="156dp"
+        android:layout_height="173dp"
+        android:layout_gravity="end"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/img4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="103dp"
+        android:layout_height="166dp"
+        android:layout_gravity="start|bottom"
+        android:paddingStart="10dp"
+        android:paddingEnd="20dp"
+        app:srcCompat="@drawable/msg2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="91dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center|bottom"
+        android:paddingBottom="28dp"
+        app:srcCompat="@drawable/msg3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="104dp"
+        android:layout_height="106dp"
+        android:layout_gravity="bottom|end"
+        android:paddingBottom="20dp"
+        app:srcCompat="@drawable/img5" />
+
+</FrameLayout>
